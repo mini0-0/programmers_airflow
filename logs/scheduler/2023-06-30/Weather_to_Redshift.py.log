@@ -1,0 +1,80 @@
+[2023-06-30T04:09:11.281+0000] {processor.py:153} INFO - Started process (PID=54) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:09:11.282+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:09:11.282+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:09:11.282+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:09:11.642+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:09:11.650+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.371 seconds
+[2023-06-30T04:09:42.033+0000] {processor.py:153} INFO - Started process (PID=210) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:09:42.044+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:09:42.044+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:09:42.044+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:09:42.190+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:09:42.198+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.167 seconds
+[2023-06-30T04:10:12.340+0000] {processor.py:153} INFO - Started process (PID=346) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:10:12.341+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:10:12.341+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:10:12.341+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:10:12.497+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:10:12.506+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.168 seconds
+[2023-06-30T04:10:43.374+0000] {processor.py:153} INFO - Started process (PID=455) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:10:43.375+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:10:43.375+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:10:43.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:10:43.522+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:10:43.529+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.157 seconds
+[2023-06-30T04:11:14.537+0000] {processor.py:153} INFO - Started process (PID=591) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:11:14.538+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:11:14.538+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:11:14.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:11:14.687+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:11:14.695+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.160 seconds
+[2023-06-30T04:11:45.612+0000] {processor.py:153} INFO - Started process (PID=727) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:11:45.613+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:11:45.613+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:11:45.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:11:45.766+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:11:45.774+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.164 seconds
+[2023-06-30T04:12:16.761+0000] {processor.py:153} INFO - Started process (PID=842) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:12:16.761+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:12:16.762+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:12:16.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:12:16.915+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:12:16.923+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.164 seconds
+[2023-06-30T04:12:47.797+0000] {processor.py:153} INFO - Started process (PID=971) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:12:47.798+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:12:47.799+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:12:47.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:12:47.947+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:12:47.955+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.160 seconds
+[2023-06-30T04:13:18.872+0000] {processor.py:153} INFO - Started process (PID=1107) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:13:18.873+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:13:18.874+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:13:18.874+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:13:19.028+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:13:19.035+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.165 seconds
+[2023-06-30T04:13:49.932+0000] {processor.py:153} INFO - Started process (PID=1243) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:13:49.933+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:13:49.933+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:13:49.933+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:13:50.089+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:13:50.098+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.168 seconds
+[2023-06-30T04:14:20.182+0000] {processor.py:153} INFO - Started process (PID=1351) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:14:20.183+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:14:20.183+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:14:20.183+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:14:20.336+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:14:20.345+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.166 seconds
+[2023-06-30T04:14:51.329+0000] {processor.py:153} INFO - Started process (PID=1488) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:14:51.335+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:14:51.336+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:14:51.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:14:51.485+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:14:51.493+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.167 seconds
+[2023-06-30T04:15:22.502+0000] {processor.py:153} INFO - Started process (PID=1624) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:15:22.503+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:15:22.503+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:15:22.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:15:22.650+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:15:22.657+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.157 seconds
+[2023-06-30T04:15:53.647+0000] {processor.py:153} INFO - Started process (PID=1732) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:15:53.648+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:15:53.648+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:15:53.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:15:53.805+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:15:53.812+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.167 seconds
+[2023-06-30T04:16:23.843+0000] {processor.py:153} INFO - Started process (PID=1868) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:16:23.854+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:16:23.855+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:16:23.855+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:16:24.001+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:16:24.008+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.167 seconds
+[2023-06-30T04:16:54.950+0000] {processor.py:153} INFO - Started process (PID=2005) to work on /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:16:54.951+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/Weather_to_Redshift.py for tasks to queue
+[2023-06-30T04:16:54.951+0000] {logging_mixin.py:137} INFO - [2023-06-30T04:16:54.951+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:16:55.102+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/Weather_to_Redshift.py
+[2023-06-30T04:16:55.121+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/Weather_to_Redshift.py took 0.173 seconds

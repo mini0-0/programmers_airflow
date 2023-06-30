@@ -1,0 +1,133 @@
+[2023-06-30T06:05:56.111+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: name_gender_v2.perform_etl manual__2023-06-30T06:05:55.372047+00:00 [queued]>
+[2023-06-30T06:05:56.116+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: name_gender_v2.perform_etl manual__2023-06-30T06:05:55.372047+00:00 [queued]>
+[2023-06-30T06:05:56.117+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-30T06:05:56.117+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2023-06-30T06:05:56.117+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-30T06:05:56.126+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): perform_etl> on 2023-06-30 06:05:55.372047+00:00
+[2023-06-30T06:05:56.129+0000] {standard_task_runner.py:55} INFO - Started process 10516 to run task
+[2023-06-30T06:05:56.131+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'name_gender_v2', 'perform_etl', 'manual__2023-06-30T06:05:55.372047+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/NameGenderCSVtoRedshift_v2.py', '--cfg-path', '/tmp/tmpacmdzofw']
+[2023-06-30T06:05:56.131+0000] {standard_task_runner.py:83} INFO - Job 124: Subtask perform_etl
+[2023-06-30T06:05:56.166+0000] {task_command.py:388} INFO - Running <TaskInstance: name_gender_v2.perform_etl manual__2023-06-30T06:05:55.372047+00:00 [running]> on host 3e27a434ea90
+[2023-06-30T06:05:56.205+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=name_gender_v2
+AIRFLOW_CTX_TASK_ID=perform_etl
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-30T06:05:55.372047+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-06-30T06:05:55.372047+00:00
+[2023-06-30T06:05:56.206+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:313: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2023-06-30T06:05:56.206+0000] {NameGenderCSVtoRedshift_v2.py:76} INFO - 2023-06-30T06:05:55.372047+00:00
+[2023-06-30T06:05:56.206+0000] {NameGenderCSVtoRedshift_v2.py:24} INFO - Extract started
+[2023-06-30T06:05:56.758+0000] {NameGenderCSVtoRedshift_v2.py:26} INFO - Extract done
+[2023-06-30T06:05:56.759+0000] {NameGenderCSVtoRedshift_v2.py:31} INFO - Transform started
+[2023-06-30T06:05:56.759+0000] {NameGenderCSVtoRedshift_v2.py:37} INFO - Transform ended
+[2023-06-30T06:05:56.759+0000] {NameGenderCSVtoRedshift_v2.py:42} INFO - load started
+[2023-06-30T06:05:59.594+0000] {logging_mixin.py:137} INFO - Adaleigh - F
+[2023-06-30T06:05:59.619+0000] {logging_mixin.py:137} INFO - Amryn - Unisex
+[2023-06-30T06:05:59.645+0000] {logging_mixin.py:137} INFO - Apurva - Unisex
+[2023-06-30T06:05:59.671+0000] {logging_mixin.py:137} INFO - Aryion - M
+[2023-06-30T06:05:59.712+0000] {logging_mixin.py:137} INFO - Alixia - F
+[2023-06-30T06:05:59.744+0000] {logging_mixin.py:137} INFO - Alyssarose - F
+[2023-06-30T06:05:59.772+0000] {logging_mixin.py:137} INFO - Arvell - M
+[2023-06-30T06:05:59.802+0000] {logging_mixin.py:137} INFO - Aibel - M
+[2023-06-30T06:05:59.840+0000] {logging_mixin.py:137} INFO - Atiyyah - F
+[2023-06-30T06:05:59.870+0000] {logging_mixin.py:137} INFO - Adlie - F
+[2023-06-30T06:05:59.897+0000] {logging_mixin.py:137} INFO - Anyely - F
+[2023-06-30T06:05:59.924+0000] {logging_mixin.py:137} INFO - Aamoni - F
+[2023-06-30T06:05:59.953+0000] {logging_mixin.py:137} INFO - Ahman - M
+[2023-06-30T06:05:59.982+0000] {logging_mixin.py:137} INFO - Arlane - F
+[2023-06-30T06:06:00.011+0000] {logging_mixin.py:137} INFO - Armoney - F
+[2023-06-30T06:06:00.042+0000] {logging_mixin.py:137} INFO - Atzhiry - F
+[2023-06-30T06:06:00.073+0000] {logging_mixin.py:137} INFO - Antonette - F
+[2023-06-30T06:06:00.104+0000] {logging_mixin.py:137} INFO - Akeelah - F
+[2023-06-30T06:06:00.132+0000] {logging_mixin.py:137} INFO - Abdikadir - M
+[2023-06-30T06:06:00.160+0000] {logging_mixin.py:137} INFO - Arinze - M
+[2023-06-30T06:06:00.186+0000] {logging_mixin.py:137} INFO - Arshaun - M
+[2023-06-30T06:06:00.215+0000] {logging_mixin.py:137} INFO - Alexandro - M
+[2023-06-30T06:06:00.243+0000] {logging_mixin.py:137} INFO - Ayriauna - F
+[2023-06-30T06:06:00.268+0000] {logging_mixin.py:137} INFO - Aqib - M
+[2023-06-30T06:06:00.294+0000] {logging_mixin.py:137} INFO - Alleya - F
+[2023-06-30T06:06:00.336+0000] {logging_mixin.py:137} INFO - Aavah - F
+[2023-06-30T06:06:00.365+0000] {logging_mixin.py:137} INFO - Anesti - Unisex
+[2023-06-30T06:06:00.392+0000] {logging_mixin.py:137} INFO - Adalaide - F
+[2023-06-30T06:06:00.420+0000] {logging_mixin.py:137} INFO - Analena - F
+[2023-06-30T06:06:00.461+0000] {logging_mixin.py:137} INFO - Alaeyah - F
+[2023-06-30T06:06:00.496+0000] {logging_mixin.py:137} INFO - Albena - F
+[2023-06-30T06:06:00.528+0000] {logging_mixin.py:137} INFO - Aimi - F
+[2023-06-30T06:06:00.554+0000] {logging_mixin.py:137} INFO - Adwaith - M
+[2023-06-30T06:06:00.580+0000] {logging_mixin.py:137} INFO - Arkady - M
+[2023-06-30T06:06:00.606+0000] {logging_mixin.py:137} INFO - Astyn - Unisex
+[2023-06-30T06:06:00.633+0000] {logging_mixin.py:137} INFO - Adelee - F
+[2023-06-30T06:06:00.660+0000] {logging_mixin.py:137} INFO - Agata - F
+[2023-06-30T06:06:00.687+0000] {logging_mixin.py:137} INFO - Alegna - F
+[2023-06-30T06:06:00.713+0000] {logging_mixin.py:137} INFO - Altan - M
+[2023-06-30T06:06:00.743+0000] {logging_mixin.py:137} INFO - Ahnaleigh - F
+[2023-06-30T06:06:00.782+0000] {logging_mixin.py:137} INFO - Algie - Unisex
+[2023-06-30T06:06:00.809+0000] {logging_mixin.py:137} INFO - Ashanti - F
+[2023-06-30T06:06:00.840+0000] {logging_mixin.py:137} INFO - Aislyn - F
+[2023-06-30T06:06:00.865+0000] {logging_mixin.py:137} INFO - Adaleine - F
+[2023-06-30T06:06:00.891+0000] {logging_mixin.py:137} INFO - Anthnoy - M
+[2023-06-30T06:06:00.914+0000] {logging_mixin.py:137} INFO - Algernon - M
+[2023-06-30T06:06:00.941+0000] {logging_mixin.py:137} INFO - Aeryona - F
+[2023-06-30T06:06:00.967+0000] {logging_mixin.py:137} INFO - Adrinne - F
+[2023-06-30T06:06:00.995+0000] {logging_mixin.py:137} INFO - Addell - F
+[2023-06-30T06:06:01.019+0000] {logging_mixin.py:137} INFO - Avril - F
+[2023-06-30T06:06:01.046+0000] {logging_mixin.py:137} INFO - Ahni - F
+[2023-06-30T06:06:01.073+0000] {logging_mixin.py:137} INFO - Aimon - M
+[2023-06-30T06:06:01.098+0000] {logging_mixin.py:137} INFO - Adolpho - M
+[2023-06-30T06:06:01.126+0000] {logging_mixin.py:137} INFO - Ahuva - F
+[2023-06-30T06:06:01.162+0000] {logging_mixin.py:137} INFO - Aurielle - F
+[2023-06-30T06:06:01.189+0000] {logging_mixin.py:137} INFO - Aveana - F
+[2023-06-30T06:06:01.238+0000] {logging_mixin.py:137} INFO - Aliyia - F
+[2023-06-30T06:06:01.283+0000] {logging_mixin.py:137} INFO - Alesander - M
+[2023-06-30T06:06:01.320+0000] {logging_mixin.py:137} INFO - Adnrea - F
+[2023-06-30T06:06:01.350+0000] {logging_mixin.py:137} INFO - Anjae - F
+[2023-06-30T06:06:01.381+0000] {logging_mixin.py:137} INFO - Alvine - F
+[2023-06-30T06:06:01.409+0000] {logging_mixin.py:137} INFO - Adorah - F
+[2023-06-30T06:06:01.441+0000] {logging_mixin.py:137} INFO - Adlemi - F
+[2023-06-30T06:06:01.468+0000] {logging_mixin.py:137} INFO - Alesi - F
+[2023-06-30T06:06:01.494+0000] {logging_mixin.py:137} INFO - Alontae - M
+[2023-06-30T06:06:01.547+0000] {logging_mixin.py:137} INFO - Antonny - M
+[2023-06-30T06:06:01.606+0000] {logging_mixin.py:137} INFO - Adarah - F
+[2023-06-30T06:06:01.648+0000] {logging_mixin.py:137} INFO - Ayreanna - F
+[2023-06-30T06:06:01.692+0000] {logging_mixin.py:137} INFO - Antyon - M
+[2023-06-30T06:06:01.728+0000] {logging_mixin.py:137} INFO - Andia - F
+[2023-06-30T06:06:01.768+0000] {logging_mixin.py:137} INFO - Ashla - F
+[2023-06-30T06:06:01.800+0000] {logging_mixin.py:137} INFO - Aspyn - F
+[2023-06-30T06:06:01.838+0000] {logging_mixin.py:137} INFO - Antwanett - F
+[2023-06-30T06:06:01.880+0000] {logging_mixin.py:137} INFO - Aundreia - F
+[2023-06-30T06:06:01.918+0000] {logging_mixin.py:137} INFO - Audella - F
+[2023-06-30T06:06:01.956+0000] {logging_mixin.py:137} INFO - Amari - Unisex
+[2023-06-30T06:06:01.992+0000] {logging_mixin.py:137} INFO - Arsha - Unisex
+[2023-06-30T06:06:02.034+0000] {logging_mixin.py:137} INFO - Aricella - F
+[2023-06-30T06:06:02.072+0000] {logging_mixin.py:137} INFO - Adan - M
+[2023-06-30T06:06:02.109+0000] {logging_mixin.py:137} INFO - Apasra - F
+[2023-06-30T06:06:02.157+0000] {logging_mixin.py:137} INFO - Alaysha - F
+[2023-06-30T06:06:02.200+0000] {logging_mixin.py:137} INFO - Anderson - M
+[2023-06-30T06:06:02.240+0000] {logging_mixin.py:137} INFO - Aurelius - M
+[2023-06-30T06:06:02.280+0000] {logging_mixin.py:137} INFO - Aerial - F
+[2023-06-30T06:06:02.313+0000] {logging_mixin.py:137} INFO - Averleigh - F
+[2023-06-30T06:06:02.351+0000] {logging_mixin.py:137} INFO - Aslean - F
+[2023-06-30T06:06:02.402+0000] {logging_mixin.py:137} INFO - Arniesha - F
+[2023-06-30T06:06:02.453+0000] {logging_mixin.py:137} INFO - Asyana - F
+[2023-06-30T06:06:02.500+0000] {logging_mixin.py:137} INFO - Annjane - F
+[2023-06-30T06:06:02.550+0000] {logging_mixin.py:137} INFO - Amabella - F
+[2023-06-30T06:06:02.592+0000] {logging_mixin.py:137} INFO - Austinjohn - M
+[2023-06-30T06:06:02.634+0000] {logging_mixin.py:137} INFO - Arloween - F
+[2023-06-30T06:06:02.669+0000] {logging_mixin.py:137} INFO - Alula - M
+[2023-06-30T06:06:02.720+0000] {logging_mixin.py:137} INFO - Anemone - F
+[2023-06-30T06:06:02.767+0000] {logging_mixin.py:137} INFO - Amorina - F
+[2023-06-30T06:06:02.824+0000] {logging_mixin.py:137} INFO - Anureet - F
+[2023-06-30T06:06:02.868+0000] {logging_mixin.py:137} INFO - Arric - M
+[2023-06-30T06:06:02.917+0000] {logging_mixin.py:137} INFO - Antonne - M
+[2023-06-30T06:06:02.950+0000] {logging_mixin.py:137} INFO - Alyre - M
+[2023-06-30T06:06:02.983+0000] {logging_mixin.py:137} INFO - Annaise - F
+[2023-06-30T06:06:03.075+0000] {NameGenderCSVtoRedshift_v2.py:67} INFO - load done
+[2023-06-30T06:06:03.075+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-06-30T06:06:03.082+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=name_gender_v2, task_id=perform_etl, execution_date=20230630T060555, start_date=20230630T060556, end_date=20230630T060603
+[2023-06-30T06:06:03.108+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-06-30T06:06:03.118+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

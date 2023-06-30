@@ -1,0 +1,25 @@
+[2023-06-29T09:52:48.795+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: name_gender_v3.transform manual__2023-06-29T09:52:47.414050+00:00 [queued]>
+[2023-06-29T09:52:48.800+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: name_gender_v3.transform manual__2023-06-29T09:52:47.414050+00:00 [queued]>
+[2023-06-29T09:52:48.800+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-29T09:52:48.801+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2023-06-29T09:52:48.801+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-29T09:52:48.809+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): transform> on 2023-06-29 09:52:47.414050+00:00
+[2023-06-29T09:52:48.813+0000] {standard_task_runner.py:55} INFO - Started process 616 to run task
+[2023-06-29T09:52:48.814+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'name_gender_v3', 'transform', 'manual__2023-06-29T09:52:47.414050+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/NameGenderCSVtoRedshift_v3.py', '--cfg-path', '/tmp/tmpwf36t_kh']
+[2023-06-29T09:52:48.814+0000] {standard_task_runner.py:83} INFO - Job 94: Subtask transform
+[2023-06-29T09:52:48.847+0000] {task_command.py:388} INFO - Running <TaskInstance: name_gender_v3.transform manual__2023-06-29T09:52:47.414050+00:00 [running]> on host 14de859c71f6
+[2023-06-29T09:52:48.933+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=name_gender_v3
+AIRFLOW_CTX_TASK_ID=transform
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-29T09:52:47.414050+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-06-29T09:52:47.414050+00:00
+[2023-06-29T09:52:48.934+0000] {NameGenderCSVtoRedshift_v3.py:33} INFO - Transform started
+[2023-06-29T09:52:48.940+0000] {NameGenderCSVtoRedshift_v3.py:40} INFO - Transform ended
+[2023-06-29T09:52:48.940+0000] {python.py:177} INFO - Done. Returned value was: [['Adaleigh', 'F'], ['Amryn', 'Unisex'], ['Apurva', 'Unisex'], ['Aryion', 'M'], ['Alixia', 'F'], ['Alyssarose', 'F'], ['Arvell', 'M'], ['Aibel', 'M'], ['Atiyyah', 'F'], ['Adlie', 'F'], ['Anyely', 'F'], ['Aamoni', 'F'], ['Ahman', 'M'], ['Arlane', 'F'], ['Armoney', 'F'], ['Atzhiry', 'F'], ['Antonette', 'F'], ['Akeelah', 'F'], ['Abdikadir', 'M'], ['Arinze', 'M'], ['Arshaun', 'M'], ['Alexandro', 'M'], ['Ayriauna', 'F'], ['Aqib', 'M'], ['Alleya', 'F'], ['Aavah', 'F'], ['Anesti', 'Unisex'], ['Adalaide', 'F'], ['Analena', 'F'], ['Alaeyah', 'F'], ['Albena', 'F'], ['Aimi', 'F'], ['Adwaith', 'M'], ['Arkady', 'M'], ['Astyn', 'Unisex'], ['Adelee', 'F'], ['Agata', 'F'], ['Alegna', 'F'], ['Altan', 'M'], ['Ahnaleigh', 'F'], ['Algie', 'Unisex'], ['Ashanti', 'F'], ['Aislyn', 'F'], ['Adaleine', 'F'], ['Anthnoy', 'M'], ['Algernon', 'M'], ['Aeryona', 'F'], ['Adrinne', 'F'], ['Addell', 'F'], ['Avril', 'F'], ['Ahni', 'F'], ['Aimon', 'M'], ['Adolpho', 'M'], ['Ahuva', 'F'], ['Aurielle', 'F'], ['Aveana', 'F'], ['Aliyia', 'F'], ['Alesander', 'M'], ['Adnrea', 'F'], ['Anjae', 'F'], ['Alvine', 'F'], ['Adorah', 'F'], ['Adlemi', 'F'], ['Alesi', 'F'], ['Alontae', 'M'], ['Antonny', 'M'], ['Adarah', 'F'], ['Ayreanna', 'F'], ['Antyon', 'M'], ['Andia', 'F'], ['Ashla', 'F'], ['Aspyn', 'F'], ['Antwanett', 'F'], ['Aundreia', 'F'], ['Audella', 'F'], ['Amari', 'Unisex'], ['Arsha', 'Unisex'], ['Aricella', 'F'], ['Adan', 'M'], ['Apasra', 'F'], ['Alaysha', 'F'], ['Anderson', 'M'], ['Aurelius', 'M'], ['Aerial', 'F'], ['Averleigh', 'F'], ['Aslean', 'F'], ['Arniesha', 'F'], ['Asyana', 'F'], ['Annjane', 'F'], ['Amabella', 'F'], ['Austinjohn', 'M'], ['Arloween', 'F'], ['Alula', 'M'], ['Anemone', 'F'], ['Amorina', 'F'], ['Anureet', 'F'], ['Arric', 'M'], ['Antonne', 'M'], ['Alyre', 'M'], ['Annaise', 'F']]
+[2023-06-29T09:52:48.953+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=name_gender_v3, task_id=transform, execution_date=20230629T095247, start_date=20230629T095248, end_date=20230629T095248
+[2023-06-29T09:52:48.986+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-06-29T09:52:48.999+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

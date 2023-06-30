@@ -1,0 +1,276 @@
+[2023-06-30T14:02:37.886+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: WorldInfo.load scheduled__2023-06-17T06:30:00+00:00 [queued]>
+[2023-06-30T14:02:37.891+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: WorldInfo.load scheduled__2023-06-17T06:30:00+00:00 [queued]>
+[2023-06-30T14:02:37.892+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-30T14:02:37.892+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-06-30T14:02:37.892+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-30T14:02:37.907+0000] {taskinstance.py:1300} INFO - Executing <Task(_PythonDecoratedOperator): load> on 2023-06-17 06:30:00+00:00
+[2023-06-30T14:02:37.910+0000] {standard_task_runner.py:55} INFO - Started process 4712 to run task
+[2023-06-30T14:02:37.912+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'WorldInfo', 'load', 'scheduled__2023-06-17T06:30:00+00:00', '--job-id', '139', '--raw', '--subdir', 'DAGS_FOLDER/WorldInfo.py', '--cfg-path', '/tmp/tmprep7xkjx']
+[2023-06-30T14:02:37.913+0000] {standard_task_runner.py:83} INFO - Job 139: Subtask load
+[2023-06-30T14:02:37.966+0000] {task_command.py:388} INFO - Running <TaskInstance: WorldInfo.load scheduled__2023-06-17T06:30:00+00:00 [running]> on host 3e27a434ea90
+[2023-06-30T14:02:38.035+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=WorldInfo
+AIRFLOW_CTX_TASK_ID=load
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-17T06:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-17T06:30:00+00:00
+[2023-06-30T14:02:38.035+0000] {WorldInfo.py:36} INFO - load started
+[2023-06-30T14:02:38.040+0000] {base.py:73} INFO - Using connection ID 'redshift_dev_db' for task execution.
+[2023-06-30T14:02:38.219+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('India', 1380004385, 3287590.0);
+[2023-06-30T14:02:38.251+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Norway', 5379475, 323802.0);
+[2023-06-30T14:02:38.281+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Denmark', 5831404, 43094.0);
+[2023-06-30T14:02:38.319+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Dominican Republic', 10847904, 48671.0);
+[2023-06-30T14:02:38.367+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('New Zealand', 5084300, 270467.0);
+[2023-06-30T14:02:38.398+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('North Korea', 25778815, 120538.0);
+[2023-06-30T14:02:38.427+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Kyrgyzstan', 6591600, 199951.0);
+[2023-06-30T14:02:38.459+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Bouvet Island', 0, 49.0);
+[2023-06-30T14:02:38.489+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Togo', 8278737, 56785.0);
+[2023-06-30T14:02:38.531+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Mexico', 128932753, 1964375.0);
+[2023-06-30T14:02:38.564+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Portugal', 10305564, 92090.0);
+[2023-06-30T14:02:38.595+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Tunisia', 11818618, 163610.0);
+[2023-06-30T14:02:38.625+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Sint Maarten', 40812, 34.0);
+[2023-06-30T14:02:38.655+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Turkmenistan', 6031187, 488100.0);
+[2023-06-30T14:02:38.687+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Northern Mariana Islands', 57557, 464.0);
+[2023-06-30T14:02:38.717+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Andorra', 77265, 468.0);
+[2023-06-30T14:02:38.749+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Brazil', 212559409, 8515767.0);
+[2023-06-30T14:02:38.779+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Moldova', 2617820, 33846.0);
+[2023-06-30T14:02:38.810+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Malaysia', 32365998, 330803.0);
+[2023-06-30T14:02:38.840+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Greenland', 56367, 2166086.0);
+[2023-06-30T14:02:38.870+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('South Korea', 51780579, 100210.0);
+[2023-06-30T14:02:38.901+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Sri Lanka', 21919000, 65610.0);
+[2023-06-30T14:02:38.934+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Palestine', 4803269, 6220.0);
+[2023-06-30T14:02:38.967+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Ireland', 4994724, 70273.0);
+[2023-06-30T14:02:38.999+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Uruguay', 3473727, 181034.0);
+[2023-06-30T14:02:39.033+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Niger', 24206636, 1267000.0);
+[2023-06-30T14:02:39.066+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Tajikistan', 9537642, 143100.0);
+[2023-06-30T14:02:39.098+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Italy', 59554023, 301336.0);
+[2023-06-30T14:02:39.140+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('French Guiana', 254541, 83534.0);
+[2023-06-30T14:02:39.188+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Bangladesh', 164689383, 147570.0);
+[2023-06-30T14:02:39.219+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Argentina', 45376763, 2780400.0);
+[2023-06-30T14:02:39.250+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Fiji', 896444, 18272.0);
+[2023-06-30T14:02:39.281+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Morocco', 36910558, 446550.0);
+[2023-06-30T14:02:39.311+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Honduras', 9904608, 112492.0);
+[2023-06-30T14:02:39.341+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Mauritania', 4649660, 1030700.0);
+[2023-06-30T14:02:39.372+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Australia', 25687041, 7692024.0);
+[2023-06-30T14:02:39.404+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Djibouti', 988002, 23200.0);
+[2023-06-30T14:02:39.436+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Serbia', 6908224, 88361.0);
+[2023-06-30T14:02:39.467+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Estonia', 1331057, 45227.0);
+[2023-06-30T14:02:39.500+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Kuwait', 4270563, 17818.0);
+[2023-06-30T14:02:39.529+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Monaco', 39244, 2.02);
+[2023-06-30T14:02:39.564+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Russia', 144104080, 17098242.0);
+[2023-06-30T14:02:39.596+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Madagascar', 27691019, 587041.0);
+[2023-06-30T14:02:39.628+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Nauru', 10834, 21.0);
+[2023-06-30T14:02:39.659+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('South Africa', 59308690, 1221037.0);
+[2023-06-30T14:02:39.689+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Guinea-Bissau', 1967998, 36125.0);
+[2023-06-30T14:02:39.732+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Qatar', 2881060, 11586.0);
+[2023-06-30T14:02:39.773+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Zambia', 18383956, 752612.0);
+[2023-06-30T14:02:39.803+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Papua New Guinea', 8947027, 462840.0);
+[2023-06-30T14:02:39.836+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Caribbean Netherlands', 25987, 328.0);
+[2023-06-30T14:02:39.867+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Equatorial Guinea', 1402985, 28051.0);
+[2023-06-30T14:02:39.897+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Hong Kong', 7500700, 1104.0);
+[2023-06-30T14:02:39.926+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Republic of the Congo', 89561404, 342000.0);
+[2023-06-30T14:02:39.957+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Poland', 37950802, 312679.0);
+[2023-06-30T14:02:39.986+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Svalbard and Jan Mayen', 2562, -1.0);
+[2023-06-30T14:02:40.017+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Peru', 32971846, 1285216.0);
+[2023-06-30T14:02:40.048+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Puerto Rico', 3194034, 8870.0);
+[2023-06-30T14:02:40.079+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Ecuador', 17643060, 276841.0);
+[2023-06-30T14:02:40.110+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('China', 1402112000, 9706961.0);
+[2023-06-30T14:02:40.140+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Slovakia', 5458827, 49037.0);
+[2023-06-30T14:02:40.170+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Vanuatu', 307150, 12189.0);
+[2023-06-30T14:02:40.214+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Antarctica', 1000, 14000000.0);
+[2023-06-30T14:02:40.246+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Croatia', 4047200, 56594.0);
+[2023-06-30T14:02:40.275+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Cook Islands', 18100, 236.0);
+[2023-06-30T14:02:40.318+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Georgia', 3714000, 69700.0);
+[2023-06-30T14:02:40.351+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Thailand', 69799978, 513120.0);
+[2023-06-30T14:02:40.383+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Armenia', 2963234, 29743.0);
+[2023-06-30T14:02:40.415+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Anguilla', 13452, 91.0);
+[2023-06-30T14:02:40.445+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('South Georgia', 30, 3903.0);
+[2023-06-30T14:02:40.478+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Luxembourg', 632275, 2586.0);
+[2023-06-30T14:02:40.513+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Latvia', 1901548, 64559.0);
+[2023-06-30T14:02:40.548+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Gibraltar', 33691, 6.0);
+[2023-06-30T14:02:40.580+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Lebanon', 6825442, 10452.0);
+[2023-06-30T14:02:40.616+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Burundi', 11890781, 27834.0);
+[2023-06-30T14:02:40.647+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Cocos (Keeling) Islands', 544, 14.0);
+[2023-06-30T14:02:40.679+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Zimbabwe', 14862927, 390757.0);
+[2023-06-30T14:02:40.714+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Bulgaria', 6927288, 110879.0);
+[2023-06-30T14:02:40.760+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Curaçao', 155014, 444.0);
+[2023-06-30T14:02:40.791+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Guinea', 13132792, 245857.0);
+[2023-06-30T14:02:40.821+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Guernsey', 62999, 78.0);
+[2023-06-30T14:02:40.852+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Samoa', 198410, 2842.0);
+[2023-06-30T14:02:40.880+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Saint Pierre and Miquelon', 6069, 242.0);
+[2023-06-30T14:02:40.918+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Jordan', 10203140, 89342.0);
+[2023-06-30T14:02:40.952+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Montenegro', 621718, 13812.0);
+[2023-06-30T14:02:40.981+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Chile', 19116209, 756102.0);
+[2023-06-30T14:02:41.009+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Sweden', 10353442, 450295.0);
+[2023-06-30T14:02:41.035+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Botswana', 2351625, 582000.0);
+[2023-06-30T14:02:41.064+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Venezuela', 28435943, 916445.0);
+[2023-06-30T14:02:41.090+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Pakistan', 220892331, 881912.0);
+[2023-06-30T14:02:41.125+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Vietnam', 97338583, 331212.0);
+[2023-06-30T14:02:41.158+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('French Southern and Antarctic Lands', 400, 7747.0);
+[2023-06-30T14:02:41.188+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Lesotho', 2142252, 30355.0);
+[2023-06-30T14:02:41.217+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Saint Kitts and Nevis', 53192, 261.0);
+[2023-06-30T14:02:41.248+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Nepal', 29136808, 147181.0);
+[2023-06-30T14:02:41.279+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Antigua and Barbuda', 97928, 442.0);
+[2023-06-30T14:02:41.309+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Micronesia', 115021, 702.0);
+[2023-06-30T14:02:41.337+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Laos', 7275556, 236800.0);
+[2023-06-30T14:02:41.363+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Eritrea', 5352000, 117600.0);
+[2023-06-30T14:02:41.394+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Israel', 9216900, 20770.0);
+[2023-06-30T14:02:41.424+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('American Samoa', 55197, 199.0);
+[2023-06-30T14:02:41.454+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('United States', 329484123, 9372610.0);
+[2023-06-30T14:02:41.484+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Indonesia', 273523621, 1904569.0);
+[2023-06-30T14:02:41.526+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Kenya', 53771300, 580367.0);
+[2023-06-30T14:02:41.556+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Comoros', 869595, 1862.0);
+[2023-06-30T14:02:41.586+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('British Virgin Islands', 30237, 151.0);
+[2023-06-30T14:02:41.617+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Cape Verde', 555988, 4033.0);
+[2023-06-30T14:02:41.649+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Christmas Island', 2072, 135.0);
+[2023-06-30T14:02:41.692+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Kosovo', 1775378, 10908.0);
+[2023-06-30T14:02:41.728+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Solomon Islands', 686878, 28896.0);
+[2023-06-30T14:02:41.757+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Malta', 525285, 316.0);
+[2023-06-30T14:02:41.785+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Malawi', 19129955, 118484.0);
+[2023-06-30T14:02:41.814+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Colombia', 50882884, 1141748.0);
+[2023-06-30T14:02:41.842+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Japan', 125836021, 377930.0);
+[2023-06-30T14:02:41.870+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Myanmar', 54409794, 676578.0);
+[2023-06-30T14:02:41.918+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Bosnia and Herzegovina', 3280815, 51209.0);
+[2023-06-30T14:02:41.947+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Chad', 16425859, 1284000.0);
+[2023-06-30T14:02:41.975+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Kiribati', 119446, 811.0);
+[2023-06-30T14:02:42.004+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Tokelau', 1411, 12.0);
+[2023-06-30T14:02:42.033+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Falkland Islands', 2563, 12173.0);
+[2023-06-30T14:02:42.064+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Gabon', 2225728, 267668.0);
+[2023-06-30T14:02:42.094+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Gambia', 2416664, 10689.0);
+[2023-06-30T14:02:42.125+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Greece', 10715549, 131990.0);
+[2023-06-30T14:02:42.155+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Mongolia', 3278292, 1564110.0);
+[2023-06-30T14:02:42.186+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Guadeloupe', 400132, 1628.0);
+[2023-06-30T14:02:42.216+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Jersey', 100800, 116.0);
+[2023-06-30T14:02:42.245+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Pitcairn Islands', 56, 47.0);
+[2023-06-30T14:02:42.276+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('San Marino', 33938, 61.0);
+[2023-06-30T14:02:42.320+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Vatican City', 451, 0.44);
+[2023-06-30T14:02:42.350+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Faroe Islands', 48865, 1393.0);
+[2023-06-30T14:02:42.378+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Tanzania', 59734213, 945087.0);
+[2023-06-30T14:02:42.406+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Wallis and Futuna', 11750, 142.0);
+[2023-06-30T14:02:42.439+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Liberia', 5057677, 111369.0);
+[2023-06-30T14:02:42.470+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('United States Virgin Islands', 106290, 347.0);
+[2023-06-30T14:02:42.498+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Yemen', 29825968, 527968.0);
+[2023-06-30T14:02:42.527+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Belarus', 9398861, 207600.0);
+[2023-06-30T14:02:42.554+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Maldives', 540542, 300.0);
+[2023-06-30T14:02:42.585+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Mali', 20250834, 1240192.0);
+[2023-06-30T14:02:42.616+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Somalia', 15893219, 637657.0);
+[2023-06-30T14:02:42.657+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Algeria', 44700000, 2381741.0);
+[2023-06-30T14:02:42.699+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Eswatini', 1160164, 17364.0);
+[2023-06-30T14:02:42.744+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('France', 67391582, 551695.0);
+[2023-06-30T14:02:42.774+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Heard Island and McDonald Islands', 0, 412.0);
+[2023-06-30T14:02:42.803+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Timor-Leste', 1318442, 14874.0);
+[2023-06-30T14:02:42.829+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Saint Barthélemy', 4255, 21.0);
+[2023-06-30T14:02:42.859+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Ethiopia', 114963583, 1104300.0);
+[2023-06-30T14:02:42.890+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Tuvalu', 11792, 26.0);
+[2023-06-30T14:02:42.917+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Dominica', 71991, 751.0);
+[2023-06-30T14:02:42.946+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Jamaica', 2961161, 10991.0);
+[2023-06-30T14:02:42.973+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Liechtenstein', 38137, 160.0);
+[2023-06-30T14:02:43.000+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Germany', 83240525, 357114.0);
+[2023-06-30T14:02:43.028+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Iran', 83992953, 1648195.0);
+[2023-06-30T14:02:43.054+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Bahrain', 1701583, 765.0);
+[2023-06-30T14:02:43.083+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Romania', 19286123, 238391.0);
+[2023-06-30T14:02:43.115+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Costa Rica', 5094114, 51100.0);
+[2023-06-30T14:02:43.145+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Canada', 38005238, 9984670.0);
+[2023-06-30T14:02:43.175+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Egypt', 102334403, 1002450.0);
+[2023-06-30T14:02:43.205+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Oman', 5106622, 309500.0);
+[2023-06-30T14:02:43.234+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Marshall Islands', 59194, 181.0);
+[2023-06-30T14:02:43.264+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('French Polynesia', 280904, 4167.0);
+[2023-06-30T14:02:43.294+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Belgium', 11555997, 30528.0);
+[2023-06-30T14:02:43.324+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Brunei', 437483, 5765.0);
+[2023-06-30T14:02:43.356+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Philippines', 109581085, 342353.0);
+[2023-06-30T14:02:43.386+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Cameroon', 26545864, 475442.0);
+[2023-06-30T14:02:43.413+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Albania', 2837743, 28748.0);
+[2023-06-30T14:02:43.457+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Guam', 168783, 549.0);
+[2023-06-30T14:02:43.507+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Belize', 397621, 22966.0);
+[2023-06-30T14:02:43.546+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('São Tomé and Príncipe', 219161, 964.0);
+[2023-06-30T14:02:43.578+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Afghanistan', 40218234, 652230.0);
+[2023-06-30T14:02:43.610+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Sudan', 43849269, 1886068.0);
+[2023-06-30T14:02:43.643+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('DR Congo', 89561404, 2344858.0);
+[2023-06-30T14:02:43.675+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Taiwan', 23503349, 36193.0);
+[2023-06-30T14:02:43.708+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Montserrat', 4922, 102.0);
+[2023-06-30T14:02:43.739+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Slovenia', 2100126, 20273.0);
+[2023-06-30T14:02:43.769+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Lithuania', 2794700, 65300.0);
+[2023-06-30T14:02:43.800+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Kazakhstan', 18754440, 2724900.0);
+[2023-06-30T14:02:43.831+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('New Caledonia', 271960, 18575.0);
+[2023-06-30T14:02:43.861+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Saint Vincent and the Grenadines', 110947, 389.0);
+[2023-06-30T14:02:43.891+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Singapore', 5685807, 710.0);
+[2023-06-30T14:02:43.921+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('El Salvador', 6486201, 21041.0);
+[2023-06-30T14:02:43.952+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Cuba', 11326616, 109884.0);
+[2023-06-30T14:02:43.981+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Rwanda', 12952209, 26338.0);
+[2023-06-30T14:02:44.011+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Barbados', 287371, 430.0);
+[2023-06-30T14:02:44.045+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Iceland', 366425, 103000.0);
+[2023-06-30T14:02:44.077+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Aruba', 106766, 180.0);
+[2023-06-30T14:02:44.106+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Syria', 17500657, 185180.0);
+[2023-06-30T14:02:44.137+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Benin', 12123198, 112622.0);
+[2023-06-30T14:02:44.180+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Finland', 5530719, 338424.0);
+[2023-06-30T14:02:44.213+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Azerbaijan', 10110116, 86600.0);
+[2023-06-30T14:02:44.248+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Nicaragua', 6624554, 130373.0);
+[2023-06-30T14:02:44.280+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Bhutan', 771612, 38394.0);
+[2023-06-30T14:02:44.317+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Hungary', 9749763, 93028.0);
+[2023-06-30T14:02:44.352+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Uzbekistan', 34232050, 447400.0);
+[2023-06-30T14:02:44.389+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Suriname', 586634, 163820.0);
+[2023-06-30T14:02:44.431+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Central African Republic', 4829764, 622984.0);
+[2023-06-30T14:02:44.476+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Burkina Faso', 20903278, 272967.0);
+[2023-06-30T14:02:44.528+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Åland Islands', 29458, 1580.0);
+[2023-06-30T14:02:44.570+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Bahamas', 393248, 13943.0);
+[2023-06-30T14:02:44.609+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Martinique', 378243, 1128.0);
+[2023-06-30T14:02:44.640+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Guatemala', 16858333, 108889.0);
+[2023-06-30T14:02:44.670+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Paraguay', 7132530, 406752.0);
+[2023-06-30T14:02:44.707+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Saint Lucia', 183629, 616.0);
+[2023-06-30T14:02:44.743+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Austria', 8917205, 83871.0);
+[2023-06-30T14:02:44.778+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Macau', 649342, 30.0);
+[2023-06-30T14:02:44.817+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Palau', 18092, 459.0);
+[2023-06-30T14:02:44.854+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Sierra Leone', 7976985, 71740.0);
+[2023-06-30T14:02:44.885+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Cyprus', 1207361, 9251.0);
+[2023-06-30T14:02:44.928+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Isle of Man', 85032, 572.0);
+[2023-06-30T14:02:44.969+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Czechia', 10698896, 78865.0);
+[2023-06-30T14:02:45.010+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Mauritius', 1265740, 2040.0);
+[2023-06-30T14:02:45.048+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Cambodia', 16718971, 181035.0);
+[2023-06-30T14:02:45.088+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Réunion', 840974, 2511.0);
+[2023-06-30T14:02:45.125+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Turks and Caicos Islands', 38718, 948.0);
+[2023-06-30T14:02:45.162+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Angola', 32866268, 1246700.0);
+[2023-06-30T14:02:45.198+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Cayman Islands', 65720, 264.0);
+[2023-06-30T14:02:45.235+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Haiti', 11402533, 27750.0);
+[2023-06-30T14:02:45.282+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Iraq', 40222503, 438317.0);
+[2023-06-30T14:02:45.329+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Netherlands', 16655799, 41850.0);
+[2023-06-30T14:02:45.364+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Ivory Coast', 26378275, 322463.0);
+[2023-06-30T14:02:45.401+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Ukraine', 44134693, 603500.0);
+[2023-06-30T14:02:45.441+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Turkey', 84339067, 783562.0);
+[2023-06-30T14:02:45.475+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Mozambique', 31255435, 801590.0);
+[2023-06-30T14:02:45.525+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('United States Minor Outlying Islands', 300, 34.2);
+[2023-06-30T14:02:45.570+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Ghana', 31072945, 238533.0);
+[2023-06-30T14:02:45.606+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Saudi Arabia', 34813867, 2149690.0);
+[2023-06-30T14:02:45.644+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Bermuda', 63903, 54.0);
+[2023-06-30T14:02:45.689+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Uganda', 45741000, 241550.0);
+[2023-06-30T14:02:45.728+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Niue', 1470, 260.0);
+[2023-06-30T14:02:45.768+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('North Macedonia', 2077132, 25713.0);
+[2023-06-30T14:02:45.805+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Grenada', 112519, 344.0);
+[2023-06-30T14:02:45.841+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Spain', 47351567, 505992.0);
+[2023-06-30T14:02:45.877+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Guyana', 786559, 214969.0);
+[2023-06-30T14:02:45.923+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Nigeria', 206139587, 923768.0);
+[2023-06-30T14:02:45.969+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Namibia', 2540916, 825615.0);
+[2023-06-30T14:02:46.008+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Saint Martin', 38659, 53.0);
+[2023-06-30T14:02:46.044+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Mayotte', 226915, 374.0);
+[2023-06-30T14:02:46.083+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Libya', 6871287, 1759540.0);
+[2023-06-30T14:02:46.121+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Bolivia', 11673029, 1098581.0);
+[2023-06-30T14:02:46.158+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('British Indian Ocean Territory', 3000, 60.0);
+[2023-06-30T14:02:46.194+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Western Sahara', 510713, 266000.0);
+[2023-06-30T14:02:46.235+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Switzerland', 8654622, 41284.0);
+[2023-06-30T14:02:46.269+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('United Kingdom', 67215293, 242900.0);
+[2023-06-30T14:02:46.308+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Saint Helena, Ascension and Tristan da Cunha', 53192, 394.0);
+[2023-06-30T14:02:46.347+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('United Arab Emirates', 9890400, 83600.0);
+[2023-06-30T14:02:46.382+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Tonga', 105697, 747.0);
+[2023-06-30T14:02:46.420+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Norfolk Island', 2302, 36.0);
+[2023-06-30T14:02:46.476+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Trinidad and Tobago', 1399491, 5130.0);
+[2023-06-30T14:02:46.545+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('South Sudan', 11193729, 619745.0);
+[2023-06-30T14:02:46.593+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Panama', 4314768, 75417.0);
+[2023-06-30T14:02:46.634+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Senegal', 16743930, 196722.0);
+[2023-06-30T14:02:46.673+0000] {logging_mixin.py:137} INFO - INSERT INTO nalala8200.worldinfo VALUES ('Seychelles', 98462, 452.0);
+[2023-06-30T14:02:46.775+0000] {WorldInfo.py:61} INFO - load done
+[2023-06-30T14:02:46.776+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-06-30T14:02:46.788+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=WorldInfo, task_id=load, execution_date=20230617T063000, start_date=20230630T140237, end_date=20230630T140246
+[2023-06-30T14:02:46.822+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-06-30T14:02:46.837+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
